@@ -1,0 +1,21 @@
+{
+	"name": "@nnounce/scripting-api",
+	"version": "0.0.0",
+	"exports": "./src/index.ts",
+	"license": "Apache 2.0",
+	"publish": {
+		"exclude": [
+			"./.idea",
+			"./docs",
+			"./src/import_map.json",
+			"./.gitlab-ci.yml",
+			"./.prettierrc",
+			"./addLicenseHeader.js",
+			"./api-extractor.json",
+			"./package.json",
+			"./package-lock.json",
+			"./postProcessTypings.js",
+			"./typedoc.json"
+		]
+	}
+}
